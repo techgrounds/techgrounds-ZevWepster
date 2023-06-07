@@ -1,4 +1,4 @@
-**Linux-01 Files and Directories**
+**Linux-02 Files and Directories**
 ===
 
 Je bewust worden van waar je bent en hoe bestand gemaakt kan worden.
@@ -8,9 +8,9 @@ Je bewust worden van waar je bent en hoe bestand gemaakt kan worden.
 
 - *Directory:* Dit is hoe linux hun mappen noemt
 
-- *Absolute paths:* 
+- *Absolute paths:* compleet en precies pad vanaf de start van je root directory naar de file of directory 
 
-- *Relative paths:*
+- *Relative paths:* hier begint je pad in je huidige directory en niet vanaf je root
 
 
 
