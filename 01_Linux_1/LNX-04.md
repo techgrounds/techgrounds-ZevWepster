@@ -6,9 +6,9 @@ Hoe users aan te maken en hun rechten aan te passen.
 **Key-terms**
 ---
 
-- *Root:* 
+- *Root:* is een speciale gebruiker in het systeem die recht heeft tot alles.
 
-- *Sudo:* 
+- *Sudo:* Sudo is het command wat je voor een command zet om dat command als *root* user te gebruiken. Je moet hier wel toestemming voor hebben.
 
 
 **Opdracht**

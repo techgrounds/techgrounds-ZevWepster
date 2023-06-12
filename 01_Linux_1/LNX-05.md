@@ -8,7 +8,7 @@ Leren hoe je bestanden toestemming geeft voor verschillende users en groepen.
 
 *Permissions:* dit zijn de rechten die een gebruiker heeft voor bestanden. Dit kan als volgend aangegeven worden - rwx rw- r--.
 
-* - rwx rw- r--:* "-" betekend dat dit een bestand is. als er een "d" voor staat gaat het om een directorie. De rest kan je opdelen in 3 delen rwx | rw- | r-- waarbij het eerste stukje over de rechten van de User gaat die in dit geval Read,Write en eXecute als rechten heeft, de 2e van groepen (deze mogen alleen Read en Write) en de 3e van other/overig die 2 "-"hebben, dit staat voor rechten die niet zijn toegestaan voor deze gebruiker.
+*- rwx rw- r--:* "-" betekend dat dit een bestand is. als er een "d" voor staat gaat het om een directorie. De rest kan je opdelen in 3 delen rwx | rw- | r-- waarbij het eerste stukje over de rechten van de User gaat die in dit geval Read,Write en eXecute als rechten heeft, de 2e van groepen (deze mogen alleen Read en Write) en de 3e van other/overig die 2 "-"hebben, dit staat voor rechten die niet zijn toegestaan voor deze gebruiker.
  
 
 
@@ -35,10 +35,10 @@ Vergat een aantal de txt file in het command te typen.
 
 *Resultaat*
 
-[Show permissions and create a text file](../00_includes/list%20perm%20files.png)
+[Show permissions and create a text file](<list perm files.png>)
 
-[Made it executable](../../../Pictures/screenshots%20CLOUD/made%20X.png)
+[Made it executable](<made X.png>)
 
-[Removing permissions for the groups and everone else, i can read it still!](../../../Pictures/screenshots%20CLOUD/Icanread.png)
+[Removing permissions for the groups and everone else, i can read it still!](Icanread.png)
 
-[Moving User and group at the same time](../../../Pictures/screenshots%20CLOUD/moving%20u%20g.png)
+[Moving the user and group at the same time](<moving u g.png>)

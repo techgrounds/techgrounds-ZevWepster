@@ -8,9 +8,9 @@ Je bewust worden van waar je bent en hoe bestand gemaakt kan worden.
 
 - *Directory:* Dit is hoe linux hun mappen noemt
 
-- *Absolute paths:* 
+- *Absolute paths:* Bij een *absolute path* word het gehele pad uitgeschreven en kan hier niet van afwijken.
 
-- *Relative paths:*
+- *Relative paths:* bij een *relative path* word niet het gehele pad uitgeschreven maar verkort met ./. Hier kan binnen het beschreven relatieve pad makkelijk word geschoven met bestanden zonder dat het de command aantast.
 
 
 
@@ -42,9 +42,9 @@ met wat zoeken [vond](../../../Pictures/screenshots%20CLOUD/missing%20textfile.p
 
 *Resultaat*
 
-[Where am I and moving trough directories](../../../Pictures/screenshots%20CLOUD/whereami-movingaround.png)
+[Where am I and moving around](whereami-movingaround.png)
 
-[create txt file and listing things](../../../Pictures/screenshots%20CLOUD/text%20file.png)
+[Creating textfile](<text file.png>)
 
 
 
