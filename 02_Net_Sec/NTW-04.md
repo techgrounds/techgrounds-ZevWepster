@@ -52,11 +52,11 @@ Translate the following hexadecimal numbers into decimal:
 
 | Hex -- | -> Decimal |
 |:---|:---|
-|88|
-|e0|
-|cb|
-|2f|
-|d8|
+|88|136|
+|e0|224|
+|cb|203
+|2f|47|
+|d8|216|
 
 
 *Gebruikte bronnen*
@@ -65,7 +65,7 @@ Translate the following hexadecimal numbers into decimal:
 
 *Ervaren problemen*
 
-
+Geen calculator gebruikt en toch gelukt. Moet wel bekennen dat ik decimal <--> Hex, nu een dag later, niet zou kunnen over doen.
 
 *Resultaat*
 

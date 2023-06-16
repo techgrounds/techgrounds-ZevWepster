@@ -58,7 +58,7 @@ Nee deze zijn niet gelijk. Dit is het adres wat je router gebruikt om binnen je 
 
 Ik kan deze adressen veranderen, ik krijg echter wel de melding als ik op internet ga op mijn telefoon dat de website niet beschikbaar is en er geen server met de gespecificeerde hostname is te vinden.
 
-- Probeer het privé IP adres van je mobiel te veranderen naar een adres buiten je     netwerk. Wat gebeurt er dan?
+- Probeer het privé IP adres van je mobiel te veranderen naar een adres buiten je netwerk. Wat gebeurt er dan?
 
 Hetzelfde, mijn telefoon laat het veranderen maar kan daarna geen verbinding meer maken met het internet.
 
