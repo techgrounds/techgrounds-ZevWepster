@@ -4,7 +4,7 @@
 **Key-terms**
 ---
 
-**OSI model:** Open  Systems interconnection is model primarily used for troubleshooting of telecommunication. This model has 7 layers.
+**OSI model:** Open  Systems Interconnection is model primarily used for troubleshooting of telecommunication. This model has 7 layers.
 
 **The TCP/IP model:** This is an alternative to the OSI model. This model describes the standard on wich the internet was built, so it's a more realistic model. This model had 4 layers.
 
