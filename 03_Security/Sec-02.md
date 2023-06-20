@@ -23,17 +23,17 @@ Stateful and stateless firewalls largely differ in that one type tracks the stat
 
 - Bekijk de standaardpagina die met de webserver geïnstalleerd is.
 
-![DefaultPage](UbuntuTest.png)
+![Default](../00_includes/SEC-02/UbuntuTest.png)
 
 - Stel de firewall zo in dat je webverkeer blokkeert, maar wel - ssh-verkeer toelaat.
 
-![ufwStatus](ufwstatus.png)
+![ufwstatus](../00_includes/SEC-02/ufwstatus.png)
 
 de poorten 80 en 443 zijn HTTP(S) poorten en voorkomen, in dit geval omdat ze op deny staan, al het internet verkeer. Poort 22 is de SSH poort.
 
 - Controleer of de firewall zijn werk doet.
 
-![fail](deafaultFail.png)
+![fail](../00_includes/SEC-02/deafaultFail.png)
 
 *Gebruikte bronnen*
 ---
