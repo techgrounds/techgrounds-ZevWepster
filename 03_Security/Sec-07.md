@@ -1,53 +1,55 @@
-**SEC-02 - Firewalls**
+**SEC-07 - Passwords**
 ===
 **Key-terms**
 ---
 
-**Stateful:** A stateful firewall is a firewall that maintains a "state" of stores information about active network connections. When a connection is opened, the firewall begins tracking it and updates its internal state as new packets are inspected and processed by the firewall.
+**Hash:** Hash is a mathmethical function that puts strings into a seemingly random output. For example you have a password **"Cookies123"** the hash is (its not this is pure hypothetical) **4564514vs654dsf** and it always will be. But if you change your password you will get a completly new hash. Hash if often seen as a form of one way encryption, password --> hash, because you, almost, cannot work it out backwards, hash --> password. 
 
-**Stateless:** A stateless firewall differs from a stateful one in that it doesn’t maintain an internal state from one packet to another. Instead, each packet is evaluated based on the data that it contains in its header.
+**Rainbow table:** a rainbow table is a precomputed table for reversing cryptographic hash functions, usually for cracking passwords. There are 2 ways of doing this:
 
-Stateful and stateless firewalls largely differ in that one type tracks the state between packets while the other does not. Otherwise, both types of firewalls operate in the same way, inspecting packet headers and using the information they contain to determine whether or not traffic is valid based on predefined rules. The state maintained by stateful firewalls enables it to identify various threats that stateless firewalls cannot.
+- Dictionary attack: Attempting to find the original plain text by hashing common passwords (A LOT) and comparing them to the target hash
 
-**Host based firewall:** A host based firewall is software that gets installed on a computer, protecting only that computer.
+- Bruteforce attack: Trying every possible combination of characters against the hashed password. Time taken increases exponentially as password length and keyspace increases.
 
-**Network based firewall:** A network based firewall is usually a combination of Hard- and Software which protects the whole network.
-
+**Salts:** Salts are short random set of characters that are appended to the end of a users password before they are hashed. So the password "Cookies123" will be stored as "Cookies123"Y*U% or in hash 4564514vs654dsf,Y*U% in plain text.
 
 **Opdracht**
 ---
 
-- Installeer een webserver op je VM.
+- Find out what hashing is and why it is preferred over symmetric encryption for storing passwords.
 
-    Apache2 is een webserver die we voor een eerder opdracht al hadden geinstaleerd.
+- Find out how a Rainbow Table can be used to crack hashed passwords.
 
-- Bekijk de standaardpagina die met de webserver geïnstalleerd is.
+- Below are two MD5 password hashes. One is a weak password, the other is a string of 16 randomly generated characters. Try to look up both hashes in a Rainbow Table.
 
-![Default](../00_includes/SEC-02/UbuntuTest.png)
+        03F6D7D1D9AAE7160C05F71CE485AD31 --> welldone!
 
-- Stel de firewall zo in dat je webverkeer blokkeert, maar wel - ssh-verkeer toelaat.
+        03D086C9B98F90D628F2D1BD84CFA6CA --> Not found.
 
-![ufwstatus](../00_includes/SEC-02/ufwstatus.png)
+- Create a new user in Linux with the password 12345. Look up the hash in a Rainbow Table.
 
-de poorten 80 en 443 zijn HTTP(S) poorten en voorkomen, in dit geval omdat ze op deny staan, al het internet verkeer. Poort 22 is de SSH poort.
+- Despite the bad password, and the fact that Linux uses common hashing algorithms, you won’t get a match in the Rainbow Table. This is because the password is salted. To understand how salting works, find a peer who has the same password in /etc/shadow, and compare hashes.
 
-- Controleer of de firewall zijn werk doet.
+notzev hash: $6$qRABEw9bgJGU/WFS$jdpCNBBCFoz7VD3CkKnYMQAcEX5YUrKLqOclP3txEzeyo2v2MEGA/xifxkGfXm4IS4ezRA8uj2ulRl6xyggTZ1
 
-![fail](../00_includes/SEC-02/deafaultFail.png)
+sinan hash: $6$YUCZcsZfVOA3cyvt$K0OXmhet0EJEYK929ORQK85NNZ6fskbcT4vvZsVUsvni7oIifEfm4bURxCEJj8aO8cE./.Q5Z2z6hm5fKKP2r0
+
+Although there are similarities, the (random generated) salt makes sure the hash is different.
 
 *Gebruikte bronnen*
 ---
+[Hash generator](https://www.md5hashgenerator.com/)
 
-[Digital ocean](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04)
+[Crack station](https://crackstation.net/)
 
-[Beginninglinux.com](http://www.beginninglinux.com/home/server-administration/firewall/enable-firewall-on-server-without-ssh-disconnect)
+[Youtube](https://www.youtube.com/watch?v=--tnZMuoK3E&t=198s)
 
-[Checkpoint](https://www.checkpoint.com/cyber-hub/network-security/what-is-firewall/what-is-a-stateful-firewall/stateful_vs_stateless_firewall/#:~:text=A%20stateless%20firewall%20differs%20from,of%20inbound%20and%20outbound%20connections.)
+
 
 *Ervaren problemen*
 ---
 
-Welk adres in te voeren in de webbrowser duurde even om uit te vogelen, samen met mijn peers er uiteindelijk uitgekomen.
+
 
 *Resultaat!*
 ---
