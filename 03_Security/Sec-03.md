@@ -5,7 +5,7 @@
 
 **Authentication:** Who are you? checks the identity and credentials
 
-**Authorization:** Checks if, said person, is allowed to do the things it wants to do.
+**Authorization:** Checks if, said person/machine, is allowed to do the things it wants to do.
 
 **Opdracht**
 ---
