@@ -30,9 +30,9 @@
 
 - Despite the bad password, and the fact that Linux uses common hashing algorithms, you won’t get a match in the Rainbow Table. This is because the password is salted. To understand how salting works, find a peer who has the same password in /etc/shadow, and compare hashes.
 
-notzev hash: $6$qRABEw9bgJGU/WFS$jdpCNBBCFoz7VD3CkKnYMQAcEX5YUrKLqOclP3txEzeyo2v2MEGA/xifxkGfXm4IS4ezRA8uj2ulRl6xyggTZ1
+        notzev hash: $6$qRABEw9bgJGU/WFS$jdpCNBBCFoz7VD3CkKnYMQAcEX5YUrKLqOclP3txEzeyo2v2MEGA/xifxkGfXm4IS4ezRA8uj2ulRl6xyggTZ1
 
-sinan hash: $6$YUCZcsZfVOA3cyvt$K0OXmhet0EJEYK929ORQK85NNZ6fskbcT4vvZsVUsvni7oIifEfm4bURxCEJj8aO8cE./.Q5Z2z6hm5fKKP2r0
+        sinan hash: $6$YUCZcsZfVOA3cyvt$K0OXmhet0EJEYK929ORQK85NNZ6fskbcT4vvZsVUsvni7oIifEfm4bURxCEJj8aO8cE./.Q5Z2z6hm5fKKP2r0
 
 Although there are similarities, the (random generated) salt makes sure the hash is different.
 
@@ -48,7 +48,7 @@ Although there are similarities, the (random generated) salt makes sure the hash
 
 *Ervaren problemen*
 ---
-
+geen ervaren problemen.
 
 
 *Resultaat!*
