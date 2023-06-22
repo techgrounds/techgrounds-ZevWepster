@@ -3,6 +3,8 @@
 **Key-terms**
 ---
 
+**MFA:** Multi-Factor Authentication is a multistep account login procces that requires users to enter more information than a password.
+
 **Authentication:** Who are you? checks the identity and credentials
 
 **Authorization:** Checks if, said person/machine, is allowed to do the things it wants to do.

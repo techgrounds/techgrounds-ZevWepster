@@ -5,6 +5,12 @@
 
 **Symetric encrytion:** Is a one way encrytion. All messages being send, back and forth, are open by the same key. There is a security risk involed using this method since it is very hard to communicate the key without it being comprimized. 
 
+**Ceasar cipher:** This is a method used by Julius Ceasar to encrypt messages for his enemeies. The method goes as follows:
+
+![cipher](https://dadstuffsite.com/wp-content/uploads/2022/12/Basic-Shift-Graphic-reduced-1024x408.jpg?ezimgfmt=ng:webp/ngcb1)
+
+This time the letters shift 1 letter so BCCB would translate to ABBA. 
+
 **Opdracht**
 ---
 - Find one more historic cipher besides the Caesar cipher.
