@@ -9,7 +9,7 @@
 
 ![cipher](https://dadstuffsite.com/wp-content/uploads/2022/12/Basic-Shift-Graphic-reduced-1024x408.jpg?ezimgfmt=ng:webp/ngcb1)
 
-This time the letters shift 1 letter so BCCB would translate to ABBA. 
+This time the letters shift 1 letter so ZAAZ would translate to ABBA. This is because you shift back to A from Z.
 
 **Opdracht**
 ---
