@@ -14,7 +14,7 @@ Bestudeer de volgende onderwerpen aan de hand van deze vragen :
 **Key-terms**
 ---
 
-- **Containers:** A container is an application thats been packaged with all the Files, Configurations and dependencies necessary for it to run. Containers are used to help with Building, Shipping, Deploying and Scale with ease by providing Isolated containers.
+- **Containers:** A container is an application thats been packaged with all the Files, Configurations and dependencies necessary for it to run. Containers are used to help with Building, Shipping, Deploying and Scale with ease by providing isolated containers.
 
 ![Traditional](../../../00_includes/AZw6/Theorie/tradModel.png)
 If we take a look at the traditional way of implementing this, we will see that every app or piece of code has its own connection with the OS and their libraries.
@@ -22,7 +22,7 @@ If we take a look at the traditional way of implementing this, we will see that 
 ![ContainerEngine](../../../00_includes/AZw6/Theorie/containerWorks.png)
 If we then look at this picture of how the containers are used to implement we wil see that a Container Engine (like Docker) was added. This will help "contain" the applications with their respective libraries and dependencies as a package wich can be used at other machines aswell.
 
-on premisess it replaces servers, in the cloud it can replace VMs. VMs work at hardware leven of virtualization while containers run on Operating System level.
+on premisess it replaces servers, in the cloud it can replace VMs. VMs work at hardware level of virtualization while containers run on Operating System level.
 
 - **Azure Support Plans:** Microsoft Azure offers multiple support plan options, from Basic support if you are just starting with your digital transformation strategy, to Professional level support to fit larger companies who are relying on the cloud to operate critical business applications and solutions.
 
@@ -47,6 +47,8 @@ With Advisor, you can:
 - Waar wordt X voor gebruikt?
 
 **Docker**: Docker is the leading software that is used to create, manage and run containers. On both Linux and Windows, Containers must be packaged with the same OS to work on that same OS.
+
+**Kubernetes**: Kubernetes is a container orchestrator. Its used to easy upscale (e.g.) Docker containers
 
 
 
