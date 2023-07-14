@@ -33,6 +33,8 @@ Use Azure Monitor to monitor these types of resources in Azure, other clouds, or
         - Networking events and health in combination with Network Watcher
         - Custom sources that use the APIs to get data into Azure Monitor
 
+![monitorFunc](../../../00_includes/AZw6/Praktijk/AZMonitor.png)
+
 Where to find it: The easiest way is to type it in the search bar wich gets you to a overview of all the things its able to monitor.
 
 ![wtfMonitor](../../../00_includes/AZw6/Praktijk/wtfMonitor.png)
@@ -54,10 +56,10 @@ App development is faster and more productive thanks to:
 
 As a fully managed service, Azure Cosmos DB takes database administration off your hands with automatic management, updates and patching. It also handles capacity management with cost-effective serverless and automatic scaling options that respond to application needs to match capacity with demand. This is horizontal scaling.
 
-CosmosDB can be found easiest in the portal by typing it in the searchbar.
+CosmosDB can be found easiest in the portal by typing it in the search bar.
 ![wtfCosmos](../../../00_includes/AZw6/Praktijk/wtfCosmos.png)
 
-When you press create you get the option for several differnt type of databases:
+When you press create you get the option for several different type of databases:
 
 ![diffDB](../../../00_includes/AZw6/Praktijk/diffDB.png)
 
