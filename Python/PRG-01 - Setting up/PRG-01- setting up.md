@@ -1,11 +1,13 @@
-**PRG-01 **
+**PRG-01**
 ===
 **Key-terms**
 ---
 
+**VSCode**: A IDE developed by Microsoft.
 
+**IDE**: Intergrated Development Environment. An IDE typically includes a code editor with features like syntax highlighting, code completion, and error checking, as well as tools for managing projects, version control, debugging, and building/executing code. 
 
-
+**Hello World**: The iconic thing most of the programmers code for their first bit of code.
 
 **Opdracht**
 ---

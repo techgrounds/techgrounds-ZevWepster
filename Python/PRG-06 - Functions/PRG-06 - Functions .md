@@ -1,9 +1,13 @@
-**PRG-06 - Functions **
+**PRG-06 - Functions**
 ===
 **Key-terms**
 ---
 
+**Function**: A function is a reusable block of code that performs a specific task. It is defined using the def keyword and can have parameters (input values) and a return value (output value).
 
+**Parameters**: Parameters are placeholders for values that you pass into a function when you call it. They allow you to customize the behavior of the function by providing different input values.
+
+**Return Value**: The return value of a function is the output it produces after performing its task. It is specified using the return statement in the function. If a function does not explicitly contain a return statement, it will return None by default.
 
 
 

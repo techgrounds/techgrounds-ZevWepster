@@ -2,7 +2,19 @@
 ===
 **Key-terms**
 ---
+**Loop**: A loop is a control structure that allows you to repeatedly execute a block of code. It helps automate tasks that need to be performed multiple times.
 
+**Iteration**: Each individual execution of a loop is called an iteration. The loop continues to iterate until a specified condition is met.
+
+**For Loop**: A for loop is used to iterate over a sequence (such as a list, tuple, or string) and execute a block of code for each item in the sequence.
+
+**While Loop**: A while loop is used to repeatedly execute a block of code as long as a specified condition remains true.
+
+**Loop Control Statements**: These are statements that control the flow of execution within loops. Common loop control statements include:
+
+        **break**: Terminates the loop prematurely, regardless of the loop's condition.
+        **continue**: Skips the remaining code in the current iteration and proceeds to the next iteration.
+        **pass**: A placeholder statement that does nothing, commonly used when a statement is syntactically required but no action is needed.
 
 
 

@@ -1,8 +1,21 @@
-**PRG-05 - Conditions **
+**PRG-05 - Conditions**
 ===
 **Key-terms**
 ---
 
+
+**Conditional Statement**: A conditional statement is a programming construct that allows you to make decisions in your code based on certain conditions. In Python, the primary conditional statement is the if statement.
+
+**Boolean Expression**: A boolean expression is an expression that evaluates to either True or False. Boolean expressions are often used as conditions in conditional statements to determine the flow of the program.
+
+**Comparison Operators**: Comparison operators are used to compare values and create boolean expressions. Common comparison operators in Python include:
+
+    - ==: Equal to
+    - !=: Not equal to
+    - <: Less than
+    - >: Greater than
+    - <=: Less than or equal to
+    - >=: Greater than or equal to
 
 
 
@@ -23,6 +36,7 @@
 
 *Gebruikte bronnen*
 
+[3wschools](https://www.w3schools.com/python/)
 
 *Ervaren problemen*
 ---
@@ -36,7 +50,7 @@ Om te ontdekken of coderen iets voor mij is heb ik na Pathways iets soortgelijks
        
 
         import random   #voor het genereren van random getallen
-        import time     #om tijd tussen de commands te kunnen toevoegen voor een soepeler lopend verhaal.
+        import time     #om tijd/ pauze tussen de commands te kunnen toevoegen voor betere interactie.
 
         # intro van spel
 
@@ -82,6 +96,6 @@ Om te ontdekken of coderen iets voor mij is heb ik na Pathways iets soortgelijks
            print("You got it wrong! Please try again.")          #is de input niet gelijk aan het random gegenereerde getal geeft het aan dat dit fout is en kan je het nog een keer proberen.
 
 
-Voorbeeld van output:
+Output:
 
 ![output](<../../00_includes/Python/PRG-05 - Conditions/outputRandom.png>)

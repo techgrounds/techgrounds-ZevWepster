@@ -3,6 +3,19 @@
 
 ## Key-terms
 
+**List**: A list is a built-in data type in Python that represents an ordered collection of items. These items can be of any data type, and they are enclosed within square brackets []. Lists are mutable, meaning you can change their contents after creation.
+
+**Index**: Each item in a list has a specific index, which is its position within the list. Indexing in Python starts from 0. You can access items in a list using their index, like my_list[0] to access the first item.
+
+**List Methods**: List methods are built-in functions that can be applied to lists to perform various operations. Examples of list methods include:
+
+- **append()**: Adds an item to the end of the list.
+- **insert()**: Inserts an item at a specific index in the list.
+- **pop()**: Removes and returns an item from a specific index or the end of the list.
+- **remove()**: Removes the first occurrence of a specified value from the list.
+- **len()**: Returns the number of items in the list.
+
+
 ## Opdracht
 
 **Exercise 1:**
@@ -39,6 +52,7 @@ Code used:
 
 ### Gebruikte bronnen
 
+[3wschools](https://www.w3schools.com/python/)
 
 ### Ervaren problemen
 

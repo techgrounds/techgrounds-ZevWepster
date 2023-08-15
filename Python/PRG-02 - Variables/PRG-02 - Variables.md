@@ -3,8 +3,11 @@
 **Key-terms**
 ---
 
+**Assignment**: This refers to the process of giving a value to a variable. For example, x = 10 assigns the value 10 to the variable x.
 
+**Data Type**: Every variable in Python has a data type that defines the type of value it can hold. Common data types include integers (**int**), floating-point numbers (**float**), strings (**str**), lists (**list**), dictionaries (**dict**), and more.
 
+**Scope**: Scope refers to the region in your code where a variable is valid and can be accessed. Variables can have local scope, which means they are only accessible within a certain function or block of code, or global scope, which means they can be accessed from anywhere in the program.
 
 
 **Opdracht**
