@@ -7,7 +7,7 @@ import random
 # generate random int
 goal = random.randint(1,100)
 
-win = False
+win = False # after discussing with my peers we understood the question asked better and changing this to True will give you a blank outcome (as asked)
 tries = 0
 
 while win == False and tries < 7:
@@ -34,6 +34,6 @@ while win == False and tries < 7:
 # 
 if win == False:
 	print("Game over! You took more than seven tries")
-	print("The correct number was:", goal) #adding a extra print to give the answer
+	print("The correct number was:", goal) #in my opinion the game was not complete, adding a extra print to give the answer solves that.
 	
 	
