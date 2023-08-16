@@ -22,6 +22,7 @@ Micha:
 - vragen stellen/ sparren
 
 Tim: Zijn goed opweg, weinig verbeterpunten. 
+
 Vincent: 
 - KC niet gehaald, benieuwd naar antwoorden.
 
