@@ -112,6 +112,6 @@ Data tussentijdse projectactiviteiten:
 |Sprint 3 Review progressie app v1.1| 29-09-2023 (wk7)|
 |Sprint 4 Review oplevering app v1.1 / Eindpresentatie | 06-10-2023 (wk 8)|
 
-*Afwezig i.v.m. UTMB
+*Afwezig i.v.m. UTMB.
 
-** Data niet voor mij van toepassing 
+** Data van toepassing op andere helft van de groep.
