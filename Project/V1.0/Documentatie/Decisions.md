@@ -32,7 +32,7 @@
 
 | Inbound | Outbound |
 |---| ---| 
-| Allow SSH (22) for "Office"-IP | Deny all outbound (80, 443)
+| Allow RDP (3389) for "Office"-IP | Deny all outbound (80, 443)
 | Deny all other inbound | 
 
 ## Deliverable: IaC-code voor een opslag oplossing voor scripts
@@ -42,8 +42,10 @@
 ## Deliverable: IaC-code voor versleuteling voorzieningen
 
 - Key vault
-- BitLock 
+
 
 ## Deliverable: IaC-code voor backup voorzieningen
 
 - Azure Back up center met Recovery Service Vault
+
+**05-09-2023**: I chose to rewrite and reorganize part of my code since i had been gone for a week and the code did not make many sense anymore
