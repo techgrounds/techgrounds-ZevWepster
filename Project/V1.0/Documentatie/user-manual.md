@@ -1,4 +1,4 @@
-## Application Manual
+## User Manual
 
 This document will instruct you on how the application can be deployed in your Azure environment. It will outline the prerequisites, commands and parameters needed to create a successful deployment.
 
