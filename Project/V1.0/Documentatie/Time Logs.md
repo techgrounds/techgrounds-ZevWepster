@@ -186,7 +186,7 @@ Deliverable check and working on documentation for the user manual and figuring 
 3. was not able to connect to web server in the intended way
 
 ### Oplossingen
-1. beide instellingen voor soft delete veranderen in de portal.
+1. beide instellingen voor soft delete veranderen en backup stoppen en deleten in de portal.
 2. andere naam aan key vault geven.
 3. RDP is niet (moeilijk) mogelijk voor een Linux server. nsg regels veranderd naar toegang met poorten 22 ipv 3389
 
@@ -194,3 +194,40 @@ Deliverable check and working on documentation for the user manual and figuring 
 zorg dat alles op de juiste manier gedeletet word zodat ik dit weer kan deployen tijdens de presentatie
 
 ---
+
+# **Log 12-09-2023**
+
+## Dagverslag (1 zin)
+wrote user manual.
+
+### Obstakels
+Nothing today
+
+### Learnings
+Ik moet beter opschrijven wat ik doe, tijdens het doen, om het schrijven van documentatie.
+
+---
+
+# **Log 13-09-2023**
+
+## Dagverslag (1 zin)
+checked if i have everything to do my presentation of v1.0 next Friday and started working on the presentation.
+
+### Obstakels
+Nothing today
+
+### Learnings
+The (softskill)presentations last and this week really helped me with taking a approach. 
+
+---
+
+# **Log 14-09-2023**
+
+## Dagverslag (1 zin)
+Worked on presentation all day.
+
+### Obstakels
+Nothing today
+
+### Learnings
+I got this!
