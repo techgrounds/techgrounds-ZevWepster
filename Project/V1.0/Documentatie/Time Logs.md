@@ -244,3 +244,16 @@ Presentation day.. Everything was well prepared except the fact that apparently 
 
 ### Learnings
 Probeer echt niks aan toeval over te laten. Zeker op belangrijke momenten als een product oplevering.
+
+---
+
+# **Log 16-09-2023**
+
+## Dagverslag (1 zin)
+Did research on the error (WinError193) and worked on my soft skill presentation
+
+### Obstakels
+I need to borrow a laptop from school to be able to test the solutions for the error.
+
+### Learnings
+Learnt a lot about assertiveness for either professional and personal use.
