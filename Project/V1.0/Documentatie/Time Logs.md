@@ -231,3 +231,16 @@ Nothing today
 
 ### Learnings
 I got this!
+
+---
+
+# **Log 15-09-2023**
+
+## Dagverslag (1 zin)
+Presentation day.. Everything was well prepared except the fact that apparently i save things in a different format on my computer.
+
+### Obstakels
+[WinError 193] %1 is not a valid Win32 application
+
+### Learnings
+Probeer echt niks aan toeval over te laten. Zeker op belangrijke momenten als een product oplevering.

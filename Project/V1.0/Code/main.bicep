@@ -36,7 +36,7 @@ param vnetIps array = [
 ]
 
 @description('Specifies the name of the key vault.')
-param keyVaultName string = 'kv5-${uniqueString(resourceGroupName)}'
+param keyVaultName string = 'kv8-${uniqueString(resourceGroupName)}'
 
 @description('The name of the managed identity.')
 param managedIdentityName string = 'managedID'
