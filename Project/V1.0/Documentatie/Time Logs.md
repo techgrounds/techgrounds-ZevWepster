@@ -247,7 +247,7 @@ Probeer echt niks aan toeval over te laten. Zeker op belangrijke momenten als ee
 
 ---
 
-# **Log 16-09-2023**
+# **Log 18-09-2023**
 
 ## Dagverslag (1 zin)
 Did research on the error (WinError193) and worked on my soft skill presentation
@@ -257,3 +257,13 @@ I need to borrow a laptop from school to be able to test the solutions for the e
 
 ### Learnings
 Learnt a lot about assertiveness for either professional and personal use.
+
+# **Log 19-09-2023**
+
+## Dagverslag (1 zin)
+Started on documentation and made design choices for V1.1. Also worked on presentation.
+
+### Obstakels
+- When keeping cost in mind it is harder to make choices
+
+### Learnings

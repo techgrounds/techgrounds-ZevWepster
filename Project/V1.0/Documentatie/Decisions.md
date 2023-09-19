@@ -49,3 +49,30 @@
 - Azure Back up center met Recovery Service Vault
 
 **05-09-2023**: I chose to rewrite and reorganize part of my code since i had been gone for a week and the code did not make many sense anymore
+
+**06-09-2023**: for deploy and testing purposes i decided to connect via username and password.
+
+---
+---
+# V1.1
+
+
+**19-09-2023**: I forgot to write down any decisions i made for v1.0 and just went with it, did not really defer from my original plan described above. Today i am starting with version 1.1 and will try to keep this more updated.
+
+Changes to be made for V1.1 are:
+
+- Adminserver: 
+    - ssh access to webserver
+
+- Webserver:
+    - Proxy --> Application Gateway
+    - No Public IP
+    - HTTPS connection with self signed certificate
+    - Health Check --> probe? in load balancer
+    - Automatic recovery -->
+    - Scale set (max 3 vms needed)
+
+- Storage:
+    - SQL server for postDeploymentScripts (placeholder only)
+
+After spending a good portion of the day figuring out what is needed for V1.1 this is where I will be focusing on, for now.

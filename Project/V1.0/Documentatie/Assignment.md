@@ -82,7 +82,7 @@ De volgende deliverables worden verwacht in je GitHub repository aan het eind va
 
         Op de laatste vrijdag van het project presenteert men het gehele project aan elkaar. Hierin deel je je ervaring, je design decisions, en de architectuur van je project.
 
-### User Strories
+### User Stories
 
 De Product Owners hebben al een overleg gehad en hebben de volgende epics en backlog opgesteld. Jij gaat als team aan deze epics en user stories werken.
 Mocht je met je team user stories identificeren die opgesplitst moeten worden in kleinere stories, is je team hier vrij in.
