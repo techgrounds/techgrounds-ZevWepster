@@ -267,3 +267,49 @@ Started on documentation and made design choices for V1.1. Also worked on presen
 - When keeping cost in mind it is harder to make choices
 
 ### Learnings
+- Use Cost Calculator
+
+---
+# **Log 20-09-2023**
+
+## Dagverslag (1 zin)
+In the morning i prepped for presentation and had dentist appointment. Afternoon took care of some personal stuff and tried to fill in the Cost Calculator tool in the portal.
+
+### Obstakels
+Other than nerves for presenting not really
+
+### Learnings
+- Practice lines more often
+
+---
+
+# **Log 21-09-2023**
+
+## Dagverslag (1 zin)
+Got laptop to test some things for presenting. Started working on V1.1, app gateway almost done, beside the ssl certs.
+
+### Obstakels
+Getting OpenSSL installed for windows. Finding the right templates for the task.
+
+### Learnings
+Ask earlier, a peer had a way around it.
+
+---
+
+# **Log 22-09-2023**
+
+## Dagverslag (1 zin)
+ScaleSet and Application gateway build and rebuild. At the end of the got the file error free, got 3 error with deployment.
+
+### Obstakels
+- storage account: Code: KeyVaultAuthenticationFailure
+- admin-vm: 
+
+        {"code":"DeploymentFailed","target":"/subscriptions/0da605a2-710e-4e87-bf32-a7eb762a555c/resourceGroups/rg-project-v11/providers/Microsoft.Resources/deployments/admin-vm","message":"At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/arm-deployment-operations for usage details.","details":[{"code":"LinkedInvalidPropertyId","message":"Property id 'sub-management' at path 'properties.ipConfigurations[0].properties.subnet.id' is invalid. Expect fully qualified resource Id that start with '/subscriptions/{subscriptionId}' or '/providers/{resourceProviderNamespace}/'."}]}
+
+- webVM: 
+
+        {"code":"DeploymentFailed","target":"/subscriptions/0da605a2-710e-4e87-bf32-a7eb762a555c/resourceGroups/rg-project-v11/providers/Microsoft.Resources/deployments/webVM","message":"At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/arm-deployment-operations for usage details.","details":[{"code":"InvalidTemplate","message":"Unable to process template language expressions for resource '/subscriptions/0da605a2-710e-4e87-bf32-a7eb762a555c/resourceGroups/rg-project-v11/providers/Microsoft.Network/applicationGateways/webScaleSetappGw' at line '1' and column '8443'. 'Unable to evaluate template language function 'resourceId': the type 'Microsoft.Network/applicationGateways/httpListeners' requires '2' resource name argument(s). Please see https://aka.ms/arm-resource-functions/#resourceid for usage details.'","additionalInfo":[{"type":"TemplateViolation","info":{"lineNumber":1,"linePosition":8443,"path":""}}]}]}
+
+### Learnings
+- Code samenvoegen heeft me veel geleerd vandaag.

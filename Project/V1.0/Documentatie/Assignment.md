@@ -109,8 +109,8 @@ Data tussentijdse projectactiviteiten:
 |Sprint 1 Review progressie app v1.0 | 01-09-2023 (wk3)*|
 |Sprint 2 Review **oplevering** app v1.0 | 15-09-2023 (wk5)|
 |Sprint 3 Review progressie app v1.1| 22-09-2023 (wk6)**|
-|Sprint 3 Review progressie app v1.1| 29-09-2023 (wk7)|
-|Sprint 4 Review oplevering app v1.1 / Eindpresentatie | 06-10-2023 (wk 8)|
+|Sprint 3 Review **progressie** app v1.1| 29-09-2023 (wk7)|
+|Sprint 4 Review **oplevering** app v1.1 / Eindpresentatie | 06-10-2023 (wk 8)|
 
 *Afwezig i.v.m. UTMB.
 
