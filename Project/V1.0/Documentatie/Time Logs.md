@@ -313,3 +313,49 @@ ScaleSet and Application gateway build and rebuild. At the end of the got the fi
 
 ### Learnings
 - Code samenvoegen heeft me veel geleerd vandaag.
+
+---
+
+# **Log 25-09-2023**
+
+## Dagverslag (1 zin)
+Continued working on the errors i had last Friday. Fixed them and got a whole lot more in return. Feels like i am correcting typo's all day..
+
+### Obstakels
+Concentration, i am reading sentences 3 times today.
+
+### Learnings
+Step away in time or leave it for another day (if possible, today this was the case). 
+
+---
+
+# **Log 26-09-2023**
+
+## Dagverslag (1 zin)
+After a good night rest, ready to tackle some more errors today! Fixed a lot, almost there i feel like
+
+### Obstakels
+- the how and where regarding ssh keys.
+- Authentication error with storage to keyVault
+- VM requests ssh access, with key 
+- When loading text use loadTextContent not loadFileAsBase64 (like I used for the custom data)
+- (Code: BadRequest) with Key Vault deployment
+- Scale set en App Gateway need to be on different subnets
+
+### Learnings
+- Make names more clear, easy to read. This makes it easier for me to differentiate in outputs
+- Take more (regular) breaks so you read texts better.
+
+---
+
+# **Log 27-09-2023**
+
+## Dagverslag (1 zin)
+All day KeyVaultAuthenticationFailure, at the end of the day i decided to build a new storage account tomorrow.
+
+### Obstakels
+         {"status":"Failed","error":{"code":"DeploymentFailed","target":"/subscriptions/0da605a2-710e-4e87-bf32-a7eb762a555c/providers/Microsoft.Resources/deployments/main","message":"At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/arm-deployment-operations for usage details.","details":[{"code":"ResourceDeploymentFailure","target":"/subscriptions/0da605a2-710e-4e87-bf32-a7eb762a555c/resourceGroups/project-v11/providers/Microsoft.Resources/deployments/storageaccount","message":"The resource write operation failed to complete successfully, because it reached terminal provisioning state 'Failed'.","details":[{"code":"DeploymentFailed","target":"/subscriptions/0da605a2-710e-4e87-bf32-a7eb762a555c/resourceGroups/project-v11/providers/Microsoft.Resources/deployments/storageaccount","message":"At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/arm-deployment-operations for usage details.","details":[{"code":"KeyVaultAuthenticationFailure","message":"The operation failed because of authentication issue on the keyvault."}]}]}]}}
+
+### Learnings
+
+Niet te lang dood staren op iets, er zijn andere mogelijkheden.

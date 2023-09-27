@@ -76,3 +76,28 @@ Changes to be made for V1.1 are:
     - SQL server for postDeploymentScripts (placeholder only)
 
 After spending a good portion of the day figuring out what is needed for V1.1 this is where I will be focusing on, for now.
+
+**26-09-2023**: after fixing a lot of errors I decided to make a small overview of how its going and what still needs to be done.
+
+- Adminserver: 
+    - ssh access to webserver // webserver (scale set) is not deploying yet
+
+- Webserver:
+    - Proxy --> Application Gateway // works/ deploys
+    - No Public IP // fixed
+    - HTTPS connection with self signed certificate // works
+        - Http upgrade to https // still needs test
+    - Health Check --> extension on scale set // yet to test
+    - Automatic recovery --> scale set // no error (yet)
+    - Scale set (max 3 vms needed) // deploys
+        - stress test
+
+- Storage:
+    - SQL server for postDeploymentScripts (placeholder only) // not started
+
+**27-09-2023**: to summarize after some more testing, I still need to:
+- https convert
+- Stress test //
+- check for no public ip // checked - done
+- ssh access // 
+
