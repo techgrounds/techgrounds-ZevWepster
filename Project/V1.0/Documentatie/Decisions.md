@@ -96,8 +96,27 @@ After spending a good portion of the day figuring out what is needed for V1.1 th
     - SQL server for postDeploymentScripts (placeholder only) // not started
 
 **27-09-2023**: to summarize after some more testing, I still need to:
-- https convert
+- https convert // done-works (28-09)
 - Stress test //
 - check for no public ip // checked - done
 - ssh access // 
 
+**28-09-2023**
+Rebuild storage account. Everything deploys now without errors. 
+
+Check list for correct configuration:
+
+- Adminserver: 
+    - ssh access to webserver // **Works**
+
+- Webserver:
+    - Proxy --> Application Gateway // **Works**
+    - No Public IP // **not on vm only app gateway**
+    - HTTPS connection with self signed certificate // **Works with password**
+    - Health Check --> // **Works, 3 instances healthy when deployed**
+    - Automatic recovery --> // **Enabled**
+    - Scale set (max 3 vms needed) // **Works** // stresstest for upscale yet to be tested.
+
+- Storage:
+    - Storage Account with blob container for storing scripts // **Works** 
+    - SQL server for postDeploymentScripts (placeholder only) // not started yet

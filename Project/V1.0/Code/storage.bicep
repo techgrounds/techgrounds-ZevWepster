@@ -11,15 +11,15 @@ param keyVaultName string
 param keyVaultKeyName string = 'cmkey'
 
 @description('Expiration time of the key')
-param keyExpiration int = 1694866626
+param keyExpiration int = 1724419997
 
 @description('The name of the Storage Account')
 @maxLength(23)
-param storageAccountName string = 'scripts${uniqueString(resourceGroup().id)}'
+param storageAccountName string = 'storage${uniqueString(resourceGroup().id)}'
 
 
 resource managedIdentity 'Microsoft.ManagedIdentity/userAssignedIdentities@2023-01-31' existing = {
-  name: managedIDname  
+  name: managedIDname
 }
 
 resource keyVault 'Microsoft.KeyVault/vaults@2023-02-01' existing  = {
@@ -36,6 +36,7 @@ resource kvKey 'Microsoft.KeyVault/vaults/keys@2021-10-01' = {
     }
     keySize: 4096
     kty: 'RSA'
+    
   }
 }
 
@@ -67,7 +68,7 @@ resource storage 'Microsoft.Storage/storageAccounts@2021-04-01' = {
       }
       keySource: 'Microsoft.Keyvault'
       keyvaultproperties: {
-        keyname: kvKey.name
+        keyname: keyVaultKeyName
         keyvaulturi: endsWith(keyVault.properties.vaultUri,'/') ? substring(keyVault.properties.vaultUri,0,length(keyVault.properties.vaultUri)-1) : keyVault.properties.vaultUri
         
       }

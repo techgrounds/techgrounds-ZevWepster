@@ -359,3 +359,10 @@ All day KeyVaultAuthenticationFailure, at the end of the day i decided to build 
 ### Learnings
 
 Niet te lang dood staren op iets, er zijn andere mogelijkheden.
+
+---
+
+# **Log 28-09-2023**
+
+## Dagverslag (1 zin)
+Rebuild my storage account with other encryption than using the key vault. Test if i have all the requested features.
