@@ -7,7 +7,7 @@
 // objectID: 24fe9637-a8ed-4b4e-9eae-189cf3aad746
 // admin username: zevmin
 // adminww: fj243DikF5GG!
-// ssh command: ssh -i ~/.ssh/sshkey zevmin@10.10.10.68
+// ssh command: ssh -i ~/.ssh/sshkey zevmin@10.10.10.69
 // sshww: testing
 
 targetScope = 'subscription'
@@ -99,12 +99,12 @@ module webVMscaleSet 'WebVMscaleSet.bicep' = {
   scope: rg
   name: 'webVM'
   params: {
+    vnet1Name: 'vnet-webserver'
     location: location
     adminUsername: adminUsername
     adminPassword: adminPassword
     environmentName: environmentName
     subnet_agwName: vnet.outputs.subnet_agwName
-    vnet1Name: 'vnet-webserver'
     subnet1Name: vnet.outputs.subnet1Name
   }
 }

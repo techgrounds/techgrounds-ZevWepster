@@ -4,7 +4,7 @@ param vmssName string = 'WebVMSS'
 @description('Number of VM instances the set starts with (10 or less).')
 @minValue(1)
 @maxValue(10)
-param instanceCount int = 1 // 3 for downscale, 1 for stress test and upscale showcase
+param instanceCount int = 3 // 3 for downscale, 1 for stress test and upscale showcase
 
 
 @secure()
@@ -236,11 +236,11 @@ resource autoscaleHost 'Microsoft.Insights/autoscalesettings@2022-10-01' = {
             threshold: 30
             timeAggregation: 'Average'
             timeGrain: 'PT1M'
-            timeWindow: 'PT5M'
+            timeWindow: 'PT3M'
           }
           scaleAction: {
             value: '1'
-            cooldown: 'PT5M'
+            cooldown: 'PT3M'
             direction: 'Decrease'
             type: 'ChangeCount'
           }
